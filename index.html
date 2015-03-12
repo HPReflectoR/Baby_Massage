@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Baby massage</title>
+
+    <!-- <link rel="stylesheet" href="CSS/normalize.css" type="text/css"> -->
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="CSS/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="CSS/fonts.css" type="text/css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!--scrollup-->
+    <script>
+        $(document).ready(function(){
+            // hide #back-top first
+            $("#back-top").hide();
+
+            // fade in #back-top
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 500) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+                // scroll body to 0px on click
+                $('#back-top a').click(function () {
+                    $('body,html').animate({ scrollTop: 0 }, 800);
+                    return false;
+                });
+            });
+        });
+    </script>
+
+        <link rel="stylesheet" href="CSS/Style.css" type="text/css">
+</head>
+
+<body id="up">
+
+<!--scroll_up-->
+<p id="back-top">
+    <a href="#up"><span></span>Back to Top</a>
+</p>
+
+<!-- навигация, главное меню -->
+
+<div id="mainmenu" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="sr-only">Открыть навигацию</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="responsive-menu">
+            <ul id="menu" class="nav navbar-nav">
+                <li><a href="#about">О массаже</a></li>
+                <li><a href="#about_me">Обо мне</a></li>
+                <li><a href="#Indications">Показания</a></li>
+                <li><a href="#Conditions">Условия проведения</a></li>
+                <li><a href="#Contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+  <!--logo-->
+
+<header id="top" class="top_header">
+    <div class="container" >
+        <div class="row">
+
+            <h1 class="main_h1"> Детский оздоровительный и лечебый массаж </h1>
+        </div>
+    </div>
+</header>
+
+ <!--responsive background-->
+
+<div class="container-fluid" id="wrap_bg">
+    <div id="bg"></div>
+</div>
+
+
+
+
+
+
+
+<!-- About massage -->
+
+
+<hr id="about">
+<div class="container">
+    <div class="row">
+        <h2> О массаже </h2>
+        <div class="col-md-8">
+            <p> Традиционно, профессиональный массаж здоровому ребенку, начинает проводить по достижении младенцем 1-3х месячного возраста. Сеанс массажа ребенку в этом случае будет включать в себя следующие техники и их разновидности: поглаживание, растирание, разминание, вибрационные приемы, точечный массаж, сегментарный массаж, также гимнастика.</p>
+            <p> Вовремя проведенный первый курс детского массажа, а также последующие, подготовит детский организм, а именно суставно-связочный аппарат, к дальнейшим возрастным нагрузкам. </p>
+            <p> Массаж ребенку эффективен во всех случаях и главным образом укрепляет мышцы спины, живота, ног, рук; и предотвращает возникновение неправильных поз, которые в дальнейшем могут повлечь за собой различные деформации скелета.
+            Детский массаж детям до года помогает производить стимулирование и развитие нервной системы, мозговой памяти, улучшая кровообращение с дыханием и пищеварением, создавая для ребёнка ощущение комфорта. Так как организм ребёнка постоянно и быстро растёт, регулярные процедуры готовят его к тому, чтобы он учил новые положения — стоял, сидел и ходил. Детский массаж детям придаёт сил, улучшая координацию движений и повышая уверенность в себе.</p>
+        </div>
+        <div class="col-md-4"><img src="img/about.jpg" class="img-responsive img-thumbnail" alt="photo" /> </div>
+    </div>
+</div>
+
+
+<!-- About me-->
+
+<section class="color">
+<hr id="about_me">
+<div class="container">
+    <div class="row">
+        <h2> Обо мне</h2>
+        <div class="col-md-4 am"><img class="img-responsive img-thumbnail" src="img/Anna.JPG" alt="photo" /> </div>
+        <div class="col-md-8">
+            <h3> Шумская Анна Геннадьевна</h3>
+            <p> Окончила Красноярский государственный педагогический университет им. В.П. Астафьева по специальности педагогика и психология, Красноярский Базовый Медицинский колледж им. Крутовского, по специальности фельдшер общей практики, диплом с отличием.
+            Проходила курсы повышения квалификации: "Медицинский массаж", "Детский массаж". Опыт работы с детьми более 5 лет. В своей работе большое внимание уделяю специфике назначения врачей, отслеживанию динамики состояния ребёнка в процессе проведения массажа. </p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Indications -->
+
+<hr id="Indications">
+<div class="container">
+    <div class="row">
+        <h2> Показания и противопоказания к проведению массажа </h2>
+        <div class="col-md-8">
+            <p> Детский массаж бывает двух видов – оздоровительный и лечебный.</p>
+
+            <p> Оздоровительный массаж проводится с целью поддержания здоровья ребенка, его цель такая же, как у гимнастики и уроков физкультуры, которые проводят с детьми старшего возраста.</p>
+
+            <p> Лечебный массаж назначается с целью устранить имеющиеся отклонения в развитии.</p>
+
+            Различают общий лечебный массаж (в течение процедуры оказывается воздействие на все тело) и местный лечебный массаж (воздействие производится на определенную область). В качестве мощного средства лечебного воздействия массаж назначается малышу при следующих состояниях:
+            <ul>
+            <li> Перинатальная патология нервной системы (нарушения функции и созревания нервной системы в результате родовой травмы, тяжелого течения беременности или послеродового периода и других причин). Частым проявлением этого заболевания является нарушение мышечного тонуса, задержка моторного развития. </li>
+            <li> Задержка моторного развития. </li>
+            <li> Гипотрофия (дефицит массы тела). </li>
+            <li>Плоско-вальгусная установка стоп. </li>
+            <li> Искривление ног – вальгусная (Х-образная) или варусная (О-образная) деформация ног.</li>
+            <li> Дисплазия тазобедренных суставов, врожденный вывих бедра – состояния, связанные с недоразвитием тазобедренных суставов.</li>
+            <li> Врожденная мышечная кривошея. </li>
+            <li> Врожденная косолапость. </li>
+            <li> Рахит </li>
+            </ul>
+            <ul> <b> Массаж отменяется в следующих случаях: </b>
+            <li> Внезапное повышение температуры тела, сопровождающееся покраснением лица, выраженной вялостью малыша </li>
+            <li>В день прививок и в последующий день </li>
+            <li> Тяжело переносимое прорезывание зубов, сопровождаеющееся температурой и поносом </li>
+            <li> Беспокойный тревожный ночной сон, непрекращающийся плач ребенка ранним утром в назначенный день проведения массажа </li>
+            </ul>
+        </div>
+        <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="img/s3.jpg" alt="baby" /></div>
+    </div>
+</div>
+
+<!-- Conditions of -->
+
+<section class="color">
+<hr id="Conditions">
+<div class="container">
+    <div class="row">
+       <h2> Условия проведения массажа</h2>
+        <div class="col-md-4 am"> <img class="img-responsive img-thumbnail" src="img/gimnastic.jpg" alt="baby" /> </div>
+        <div class="col-md-8">
+            <ul>
+                <li>Проводить детский массаж можно спустя 40-60 мин после кормления ребенка не зависимо от возраста</li>
+                <li>Перед началом сеанса необходимо хорошо проветрить комнату. Температура воздуха должна быть 22'-25'C</li>
+                <li>Для грудничка детский массаж проводится тогда, когда малыш бодрствует и максимально активен</li>
+                <li>Процедуру выполняют на столе, накрытом сложенным вдвое байковым одеялом, а сверху одноразовой пеленочкой или хлопчатобумажной простыней.</li>
+                <li>Желательно наличие гимнастического мяча (диаметром 75 см) для проведения гимнастики (ребенку до года)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Contacts -->
+
+<hr id="Contacts">
+<div class="container">
+    <div class="row">
+        <h2> Контакты </h2>
+
+        <p class="marg_bot"> Прием проводится по предварительной записи. Чтобы записаться на прием можно позвонить по
+            тел. +7-908-024-47-33 или воспользоваться формой для обратной связи: </p>
+    </div>
+</div>
+
+<div class="container" id="forma">
+    <div class="col-sm-6">
+        <form class="form-horizontal" role="form" id="form">
+            <div class="form-group">
+                <label for="inputName" class="col-sm-2 control-label">Имя</label>
+
+                <div class="col-sm-10">
+                    <input name="name" type="text" class="form-control" id="InputName" placeholder="Введите Ваше имя">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="col-sm-2 control-label">Телефон</label>
+
+                <div class="col-sm-10">
+                    <input name="phone" type="text" class="form-control" id="phone" placeholder="Введите Ваш телефон">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email" class="col-sm-2 control-label">Email</label>
+
+                <div class="col-sm-10">
+                    <input name="email" type="email" class="form-control" id="Email" placeholder="Введите Ваш E-mail">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer class="hidden-xs">
+    <div class="container">
+        <div class="row">
+            <p class="text-center"> &copy; 2015 copyright </p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<!--<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>-->
+<script src="js/land.js"></script>
+<script src="js/transitions.js"></script>
+<script src="js/post_mail.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
