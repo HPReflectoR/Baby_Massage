@@ -56,3 +56,28 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* font-family: Raleway Regular*/
+
+@font-face {
+	font-family: 'ralewayregular';
+	src: url('../fonts/Raleway/raleway-regular.eot');
+	src: url('../fonts/Raleway/raleway-regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Raleway/raleway-regular.woff') format('woff'),
+	url('../fonts/Raleway/raleway-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* font-family: Ralewaybold_italic */
+
+
+@font-face {
+	font-family: 'ralewaybold_italic';
+	src: url('../fonts/Raleway/raleway-bold-italic.eot');
+	src: url('../fonts/Raleway/raleway-bold-italic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Raleway/raleway-bold-italic.woff') format('woff'),
+	url('../fonts/Raleway/raleway-bold-italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
