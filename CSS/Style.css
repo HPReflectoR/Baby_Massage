@@ -13,12 +13,18 @@ hr {
     margin: 0;
     border: transparent;
 }
-#wrap_bg {
-    padding: 0px;
+
+.header {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 
 .fence {
-    margin: 30px auto;
+    position: relative;
+    z-index: 2;
+    margin: -10px auto;
     border: 10px solid transparent;
     border-width: 10px 0;
     background-color: lightblue;
@@ -85,40 +91,39 @@ hr {
 }
 
 .text-vertical-center {
-    position: absolute;
-    top: 40%;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    opacity: 1;
-    z-index: 10;
 }
 
 .text-vertical-center blockquote {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 3.5em;
     font-weight: 700;
 }
 
 .text-vertical-center cite {
     font-size: 2em;
+    color: #f1f1f1;
 }
+
+.main_h1 {
+
+    font-family: Nautilus Pompilius, sans-serif;
+    text-align: center;
+    color: #f1f1f1;
+}
+
 .top_header {
     color: #ffffff;
 
 }
 .navbar {
-    margin-bottom: 0px;
-    border-radius: 0px;
+    margin-bottom: 0;
+    border-radius: 0;
 }
-.main_h1 {
 
-    font-family: Nautilus Pompilius;
-    text-align: center;
-    color: #ffffff;
-
-}
 
 .am {
     padding-bottom: 30px;
@@ -153,6 +158,14 @@ footer {
     right: 30px;
     margin-right: 20px;
 }
+
+.wrapper {
+    position: relative;
+    z-index: 1;
+    background-color: #F1F1F1;
+    padding-bottom: 50px;
+}
+
 #back-top a {
     width: 108px;
     display: block;
@@ -214,3 +227,36 @@ footer {
     vertical-align: middle;
 }
 
+/*Vegas CSS for Slideshow*/
+.vegas-loading {
+    border-radius: 10px;
+    background: #000;
+    background: rgba(0,0,0,0.7);
+    background: url(../img/loading.gif) no-repeat center center; /* Loading Gif by http://preloaders.net/ */
+    height: 32px;
+    left: 20px;
+    position: fixed;
+    top: 20px;
+    width: 32px;
+    z-index: 0;
+}
+
+.vegas-overlay {
+    background: transparent url(overlays/01.png);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.vegas-background {
+    max-width: none !important; /* counteracts global img modification by twitter bootstrap library */
+    z-index: -2;
+}
+
+.vegas-overlay,
+.vegas-background {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
