@@ -14,6 +14,9 @@ hr {
     border: transparent;
 }
 
+h2 {
+    margin-bottom: 30px;
+}
 .header {
     display: table;
     height: 100%;
@@ -22,6 +25,9 @@ hr {
 }
 
 .fence {
+
+    color: #ffffff;
+    font-family: RobotoRegular, sans-serif;
     position: relative;
     z-index: 2;
     margin: -10px auto;
@@ -55,41 +61,6 @@ hr {
 
 }
 
-#bg {
-
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url("../img/bg.jpg") no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-
-    /*background-color: #26292e;*/
-    opacity: 0.7;
-    filter: alpha(opacity=70);
-    z-index: 2;
-
-
-}
-.opacity {
-    background: #666 no-repeat center center scroll;
-
-    position: relative;
-    width: 100%;
-    height: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    z-index: 1;
-
-
-}
-
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -119,32 +90,34 @@ hr {
     color: #ffffff;
 
 }
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
 }
 
-
-.am {
-    padding-bottom: 30px;
-}
 footer {
-    padding: 10px;
+    padding: 20px;
     background: #333;
-    height: 50px;
+    height: 70px;
     color: #6f7074;
 }
 
 #footer_a li a {
     color: #45bade;
 }
+
 .marg_bot {
     margin-bottom: 30px;
 }
+
+.marg_bot span {
+    text-decoration: underline;
+}
+
 #forma {
     margin-bottom: 40px;
 }
-
 
 .tooltip-inner {
     white-space: pre;
@@ -157,6 +130,7 @@ footer {
     bottom: 30px;
     right: 30px;
     margin-right: 20px;
+    z-index: 10;
 }
 
 .wrapper {
@@ -179,9 +153,11 @@ footer {
     -moz-transition: 1s;
     transition: 1s;
 }
+
 #back-top a:hover {
     color: #000;
 }
+
 /* arrow icon (span tag) */
 #back-top span {
     width: 108px;
@@ -198,6 +174,7 @@ footer {
     -moz-transition: 1s;
     transition: 1s;
 }
+
 #back-top a:hover span {
     background-color: #777;
 }
@@ -242,7 +219,7 @@ footer {
 }
 
 .vegas-overlay {
-    background: transparent url(overlays/01.png);
+    background: transparent;
     opacity: 0.5;
     z-index: -1;
 }
@@ -259,4 +236,50 @@ footer {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+#Tabs div {
+    min-height: 436px;
+}
+
+#Tabs div img {
+    height: 320px;
+    width: 350px;
+
+}
+
+#white-stripe {
+    border: 2px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+/*Transparent navbar*/
+
+.navbar {
+    background-color: rgba(0,0,0,0.6);
+}
+
+#citate div div {
+    background-color: #f0f0f0;
+    border: 2px dashed #cecece;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 10px;
+    color: #611600;
+}
+
+#citate div p {
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+#citate div div cite i {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.list-arrow {
+    list-style-image: url(../img/forward.png);
 }
