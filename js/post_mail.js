@@ -24,7 +24,7 @@
             var str = form.serialize();
 
             $.ajax({
-                url: '../php/contact_form.php',
+                url: 'php/contact_form.php',
                 type: 'POST',
                 data: str
             })
