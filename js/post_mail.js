@@ -24,13 +24,13 @@
             var str = form.serialize();
 
             $.ajax({
-                url: 'php/contact_form.php',
+                url: '../php/contact_form.php',
                 type: 'POST',
                 data: str
             })
                 .done(function(msg) {
                     if(msg === "OK"){
-                        var result = "<div = 'bg-success'>Спасибо за заявку! Мы вам перезвоним!</div>"
+                        var result = "<div = 'bg-success'>Спасибо за заявку! Мы вам обязательно перезвоним!</div>"
                         form.html(result);
                     }else{
                         form.html(msg);

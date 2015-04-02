@@ -15,8 +15,10 @@ hr {
 }
 
 h2 {
-    margin-bottom: 30px;
+    margin: 25px auto;
+    font-size: 36px;
 }
+
 .header {
     display: table;
     height: 100%;
@@ -31,6 +33,7 @@ h2 {
     position: relative;
     z-index: 2;
     margin: -10px auto;
+    padding-bottom: 15px;
     border: 10px solid transparent;
     border-width: 10px 0;
     background-color: lightblue;
@@ -80,7 +83,6 @@ h2 {
 }
 
 .main_h1 {
-
     font-family: Nautilus Pompilius, sans-serif;
     text-align: center;
     color: #f1f1f1;
@@ -138,6 +140,10 @@ footer {
     z-index: 1;
     background-color: #F1F1F1;
     padding-bottom: 50px;
+}
+
+.about {
+    background-color: #f2e1dc;
 }
 
 #back-top a {
@@ -202,6 +208,7 @@ footer {
     margin-top: 50px;
     display: inline-block;
     vertical-align: middle;
+    line-height: 1.5;
 }
 
 /*Vegas CSS for Slideshow*/
@@ -209,7 +216,7 @@ footer {
     border-radius: 10px;
     background: #000;
     background: rgba(0,0,0,0.7);
-    background: url(../img/loading.gif) no-repeat center center; /* Loading Gif by http://preloaders.net/ */
+    background: url(../img/loading.gif) no-repeat center center;
     height: 32px;
     left: 20px;
     position: fixed;
@@ -243,8 +250,9 @@ footer {
 }
 
 #Tabs div img {
-    height: 320px;
-    width: 350px;
+    height: 280px;
+    width: 300px;
+    margin: 10px auto;
 
 }
 
@@ -281,5 +289,12 @@ footer {
 }
 
 .list-arrow {
+    line-height: 1.7;
     list-style-image: url(../img/forward.png);
+}
+
+.list-name {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 18px;
 }
